@@ -44,7 +44,7 @@ nodejs-demo-app/
 
 ### 2. Push to GitHub Repo
 
-``bash
+```bash
 
 git init
 git add .
@@ -52,6 +52,7 @@ git commit -m "init"
 git remote add origin https://github.com/YOUR_USERNAME/nodejs-demo-app.git
 git push -u origin main
 
+```
 
 ## 3. Add GitHub Secrets
 
@@ -72,7 +73,7 @@ git add .
 git commit -m "Add CI/CD pipeline"
 git push
 
-# Optional: Run the Docker Image Locally
+## Optional: Run the Docker Image Locally
 
 Make sure Docker is running, then:
 
