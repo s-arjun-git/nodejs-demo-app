@@ -44,7 +44,8 @@ nodejs-demo-app/
 
 ### 2. Push to GitHub Repo
 
-```bash
+``bash
+
 git init
 git add .
 git commit -m "init"
@@ -52,7 +53,7 @@ git remote add origin https://github.com/YOUR_USERNAME/nodejs-demo-app.git
 git push -u origin main
 
 
-3. Add GitHub Secrets
+## 3. Add GitHub Secrets
 
 In your repo > Settings > Secrets > Actions, add:
 
@@ -60,12 +61,12 @@ In your repo > Settings > Secrets > Actions, add:
 
     DOCKER_PASSWORD (use token if 2FA enabled)
 
-4. Add GitHub Actions Workflow
+## 4. Add GitHub Actions Workflow
 
 Create .github/workflows/main.yml with the CI/CD pipeline steps (checkout, test, build, push to DockerHub).
 
 
-5. Push Changes
+## 5. Push Changes
 
 git add .
 git commit -m "Add CI/CD pipeline"
